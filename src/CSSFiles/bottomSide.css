@@ -1,0 +1,84 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+
+.one{
+    background-color:rgb(108, 11, 108);
+    height:100px;
+    padding-left: 150px;
+    padding-top: 44px;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -40px;
+}
+.two{
+    font-size:x-large;
+    padding-left:300px ;
+    padding-top: 50px;
+    color:rgb(173, 8, 173);
+}
+.sizing{
+    display: flex;
+    padding-top: 50px;
+
+}
+.size11{
+    padding-left: 300px;
+}
+.size22{
+    padding-left: 500px;
+}
+.size1{
+    height:120px;
+}
+
+.name{
+    list-style-type: none;
+    display: flex;
+    padding-top: 5px;
+    color: rgb(189, 75, 189);
+    font-size: 30px;
+}
+.name1{
+    padding-left: 320px;
+}
+.name2{
+    padding-left: 535px;
+}
+.sign-in {
+    list-style-type: none;
+    display: flex;
+    padding-top: 10px;
+    font-size:18px;
+}
+.sign-in a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:darkolivegreen;
+    text-decoration: none;
+    color:rgb(108, 11, 108);
+}
+.sign-in a:hover{
+    color:olive;
+}
+.sign1{
+    padding-left: 310px;
+}
+.sign2{
+    padding-left:515px ;
+}
+.logo2{
+    height:20px;
+}
+.footer{
+    background-color: rgb(210, 104, 210);
+    margin-top: 150px;
+    height: 100px;
+    padding-left: 600px;
+    padding-top: 70px;
+}
+.footer a{
+    text-decoration: none;
+    color:black;
+}
+
