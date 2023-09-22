@@ -1,0 +1,79 @@
+.containerL {
+    max-width: 500px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.416);
+    margin: 2px auto;
+    margin-bottom: auto;
+    
+}
+.h12{
+    padding-bottom:8%;
+}
+.form-input:focus {
+    outline: none;
+}
+.form-input {
+    width: 100%;
+    max-width: 400px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #ccc;
+    color: #333;
+    font-size: 15px;
+    font-family: 'poppins', Arial, sans-serif;
+    letter-spacing: 1px;
+    margin: 7px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form-input:focus {
+    outline: none;
+}
+.login-btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    color: #ffffff;
+    font-family: 'poppins', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10%;
+    transition: 0.2s ease;
+    cursor: pointer;
+    margin-top: 15%;
+}
+.login-btn:hover {
+    background-color: #ff4343;
+}
+
+ .login-btn:focus {
+    outline: none;
+}
+.hlogin{
+    padding-top: 0%;
+    padding-bottom: 6%;
+}
+.login-form {
+    text-align: center;
+    margin-top: 5px;
+    justify-items: center;
+}
+.link {
+    font-family: 'poppins', Arial, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+.link a {
+    font-family: 'poppins', Arial, sans-serif;
+    text-decoration: none;
+    color: #ff7200;
+    font-weight: bold;
+}
