@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Homepage from './screens/Homepage'
+import Router from './services/routes'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Homepage/>
+    <Router />
   </React.StrictMode>,
 )
