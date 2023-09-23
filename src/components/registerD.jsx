@@ -1,6 +1,6 @@
-import '../CSSFiles/registerD.css';
+import '../CSSFiles/registerP.css';
 
-function RegisterDoctor(){
+function RegisterPatient(){
   return (
     <View style={{ flex: 1 }}>
       <View style={{ backgroundColor: 'blue', padding: 20 }}>
@@ -16,7 +16,7 @@ function RegisterDoctor(){
           <Text style={{ fontSize: 24 }}>Registration</Text>
           <TextInput
             style={{ borderWidth: 1, borderColor: 'gray', borderRadius: 5, marginVertical: 5, padding: 10 }}
-            placeholder="Doctor ID"
+            placeholder="Patient ID"
           />
           <TextInput
             style={{ borderWidth: 1, borderColor: 'gray', borderRadius: 5, marginVertical: 5, padding: 10 }}
@@ -26,10 +26,7 @@ function RegisterDoctor(){
             style={{ borderWidth: 1, borderColor: 'gray', borderRadius: 5, marginVertical: 5, padding: 10 }}
             placeholder="Email ID"
           />
-          <TextInput
-            style={{ borderWidth: 1, borderColor: 'gray', borderRadius: 5, marginVertical: 5, padding: 10 }}
-            placeholder="Department"
-          />
+          
           <TextInput
             style={{ borderWidth: 1, borderColor: 'gray', borderRadius: 5, marginVertical: 5, padding: 10 }}
             placeholder="Password"
@@ -60,5 +57,5 @@ function RegisterDoctor(){
   );
 }
 
-export default RegisterDoctor
+export default RegisterPatient
 
