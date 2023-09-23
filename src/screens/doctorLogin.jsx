@@ -5,7 +5,7 @@ function DoctorLogin(){
     return(
         <>
         <Logregback/>
-        <Logincom designation='Doctor Login' designation_id='Doctor ID'/>
+        <Logincom designation='Doctor Login' designation_id='Doctor ID' linker={false}/>
         </>
     );
 }

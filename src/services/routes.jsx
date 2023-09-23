@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from '../screens/Homepage'
 import DoctorLogin from "../screens/doctorLogin";
 import PatientLogin from "../screens/patientLogin";
+import PatientRegistration from "../screens/patientRegistration";
 
 const Router = () => {
     const router = createBrowserRouter([
@@ -16,6 +17,10 @@ const Router = () => {
         {
             path: "/patientLogin",
             element: <PatientLogin />
+        },
+        {
+            path: "/patientReg",
+            element: <PatientRegistration />
         }
     ]);
 

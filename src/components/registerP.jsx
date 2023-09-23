@@ -1,61 +1,29 @@
 import '../CSSFiles/registerP.css';
 
-function RegisterPatient(){
+function RegisterPatient() {
   return (
-    <View style={{ flex: 1 }}>
-      <View style={{ backgroundColor: 'blue', padding: 20 }}>
-        <Text style={{ fontSize: 24, color: 'white' }}>HOSPITALx</Text>
-      </View>
-      <View style={{ backgroundColor: 'lightgray', padding: 10 }}>
-        <Text style={{ fontSize: 18 }}>Service</Text>
-        <Text style={{ fontSize: 18 }}>Contact</Text>
-        <Text style={{ fontSize: 18 }}>About</Text>
-      </View>
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <View style={{ width: '80%' }}>
-          <Text style={{ fontSize: 24 }}>Registration</Text>
-          <TextInput
-            style={{ borderWidth: 1, borderColor: 'gray', borderRadius: 5, marginVertical: 5, padding: 10 }}
-            placeholder="Patient ID"
-          />
-          <TextInput
-            style={{ borderWidth: 1, borderColor: 'gray', borderRadius: 5, marginVertical: 5, padding: 10 }}
-            placeholder="Name"
-          />
-          <TextInput
-            style={{ borderWidth: 1, borderColor: 'gray', borderRadius: 5, marginVertical: 5, padding: 10 }}
-            placeholder="Email ID"
-          />
-          
-          <TextInput
-            style={{ borderWidth: 1, borderColor: 'gray', borderRadius: 5, marginVertical: 5, padding: 10 }}
-            placeholder="Password"
-            secureTextEntry
-          />
-          <TextInput
-            style={{ borderWidth: 1, borderColor: 'gray', borderRadius: 5, marginVertical: 5, padding: 10 }}
-            placeholder="Confirm Password"
-            secureTextEntry
-          />
-          <TouchableOpacity
-            style={{
-              backgroundColor: 'blue',
-              borderRadius: 5,
-              padding: 10,
-              alignItems: 'center',
-              marginTop: 10,
-            }}
-          >
-            <Text style={{ fontSize: 18, color: 'white' }}>Register</Text>
-          </TouchableOpacity>
-        </View>
-        <Text style={{ marginTop: 10 }}>
-          Already have an account? <Text style={{ color: 'blue' }}>Login</Text>
-        </Text>
-      </View>
-    </View>
+    <div className="containerR">
+      <div className="registration-form">
+        <h2 className="h12">Registration</h2>
+        <form>
+          <input className="form-input" type="text" name="name" placeholder="Name" />
+          <input className="form-input" type="email" name="email" placeholder="Email ID" />
+          <input className="form-input" type="phone_number" name="phone_number" placeholder="Phone number" />
+          <select className="new" name="gender">
+            <option value="">Please select one gender</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option>
+          </select>
+          <input className="new2" type="date" name="Date_of_birth" placeholder="DOB" />
+          <input className="form-input" type="password" name="password" placeholder="Password" />
+          <input className="form-input" type="password" name="confirm_password" placeholder="Confirm Password" />
+        </form>
+        <button className="register-btn" type="submit">Register</button>
+        <p className="link">Already have an account? <a href="patientLogin">Login</a></p>
+      </div>
+    </div>
   );
 }
 
-export default RegisterPatient
-
+export default RegisterPatient;

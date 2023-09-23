@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import '../CSSFiles/logincom.css'
 
-function Logincom({ designation, designation_id }){
+function Logincom({ designation, designation_id, linker }){
     return(
         <>
         <div className="containerL">
@@ -12,7 +12,7 @@ function Logincom({ designation, designation_id }){
                     <input className="form-input" type="password" name="password" placeholder="Password" />
                     <button className="login-btn" type="submit">Login</button>
                 </form>           
-                <p className="link">dont have account?<a href="#">Register</a></p>
+                {linker === true ? (<p className="link">Dont have an account? <a href="patientReg">Register</a></p>) : null}
             </div>
         </div>
         </>
