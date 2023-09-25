@@ -3,6 +3,7 @@ import Homepage from '../screens/Homepage'
 import DoctorLogin from "../screens/doctorLogin";
 import PatientLogin from "../screens/patientLogin";
 import PatientRegistration from "../screens/patientRegistration";
+import PatientDashboard from "../screens/patientDashboard";
 
 const Router = () => {
     const router = createBrowserRouter([
@@ -21,6 +22,10 @@ const Router = () => {
         {
             path: "/patientReg",
             element: <PatientRegistration />
+        },
+        {
+            path: "/patientDashboard",
+            element: <PatientDashboard />
         }
     ]);
 

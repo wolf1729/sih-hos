@@ -28,8 +28,8 @@ function BottomSide(){
         </div>
         <div>
             <ul className="sign-in">
-                <li className="sign1"><Link to='patientLogin'>Login/Sign in</Link></li>
-                <li className="sign2"><Link to='doctorLogin'>Login</Link></li>
+                <li className="sign1"><Link to='/patientLogin'>Login/Sign in</Link></li>
+                <li className="sign2"><Link to='/doctorLogin'>Login</Link></li>
             </ul>
         </div>
         <div className="footer">
