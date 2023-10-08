@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../CSSFiles/registerP.css';
 import { createPatientAccount } from '../services/firebaseFunction';
-import PatientDashboard from '../screens/patientDashboard';
 
 function RegisterPatient() {
 
@@ -13,7 +12,6 @@ function RegisterPatient() {
     try{
       await createPatientAccount(email, password);
       console.log('acount created')
-      return <Link to="/patientDashboard"></Link>
     }catch(error){
       console.log(`error occured : ${error}`)
     }

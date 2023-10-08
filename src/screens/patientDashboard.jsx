@@ -1,9 +1,12 @@
+import Navbar from "../components/Navbar"
+import Image from "../components/Image"
+
 function PatientDashboard(){
     return(
-        <>
-        <h1>hello</h1>
-        <h2>Patient Dashboard</h2>
-        </>
+        <div className = "app">
+            <Navbar />
+            <Image />
+        </div>
     )
 }
 
